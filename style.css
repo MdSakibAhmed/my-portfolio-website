@@ -127,7 +127,8 @@ section{
     margin-right: 21px;
     margin-top:70px;
     padding:15px;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(187, 186, 186);
 }
 
 .project p {
@@ -221,11 +222,6 @@ textarea{
     padding-left:10px;
 }
 
-.contact-information p{
-    font-weight: bold;
-    font-size:22px;
-}
-
 input[type="submit"]{
     background:linear-gradient(45deg, mediumseagreen, rgb(14, 151, 14));
     color:#3C3C3C;
@@ -237,11 +233,18 @@ input[type="submit"]{
     cursor:pointer;   
 }
 
+.contact-information p{
+    font-weight: bold;
+    font-size:22px;
+}
+
+
 /* SOCIAL AREA SECTION */
 
 #social-area{
     height: 150px;
     padding-top:100px;
+    padding-bottom: 50px;
 }
 
 .social{
